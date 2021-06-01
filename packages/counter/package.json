@@ -6,6 +6,7 @@
   "author": "Alan Chambers <ajmchambers@users.noreply.github.com>",
   "homepage": "",
   "repository": {},
+  "type": "module",
   "main": "index.js",
   "module": "index.js",
   "files": [
@@ -15,6 +16,7 @@
     "/WipCounter.{js,d.ts,d.ts.map}",
     "custom-elements.json"
   ],
+  "types": "index.d.ts",
   "scripts": {
     "build": "npm run clean && npm run build:ts && npm run analyze",
     "build:ts": "tsc --build",

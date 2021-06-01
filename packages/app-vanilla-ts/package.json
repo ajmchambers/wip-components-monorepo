@@ -1,0 +1,17 @@
+{
+  "name": "@wip/app-vanilla-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@wip/counter": "1.0.0",
+    "lit-html": "^1.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "vite": "^2.3.5"
+  }
+}
