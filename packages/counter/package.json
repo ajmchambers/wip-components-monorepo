@@ -1,0 +1,51 @@
+{
+  "name": "@wip/counter",
+  "version": "1.0.0",
+  "description": "Basic counter component",
+  "license": "MIT",
+  "author": "Alan Chambers <ajmchambers@users.noreply.github.com>",
+  "homepage": "",
+  "repository": {},
+  "main": "index.js",
+  "module": "index.js",
+  "files": [
+    "/src/",
+    "/index.{js,d.ts,d.ts.map}",
+    "/wip-counter.{js,d.ts,d.ts.map}",
+    "/WipCounter.{js,d.ts,d.ts.map}",
+    "custom-elements.json"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run build:ts && npm run analyze",
+    "build:ts": "tsc --build",
+    "clean": "rimraf {index,wip-counter, WipCounter}.{d.ts,d.ts.map} custom-elements.json",
+    "analyze": "wca analyze \"src/**/*.js\" --outFile custom-elements.json",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "sideEffects": [
+    "wip-counter.js"
+  ],
+  "dependencies": {
+    "lit": "^2.0.0-rc.2"
+  },
+  "keywords": [
+    "counter",
+    "lit",
+    "web-components"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "customElementsManifest": "custom-elements.json",
+  "exports": {
+    ".": "./index.js",
+    "./define": "./wip-counter.js",
+    "./docs/": "./docs/"
+  },
+  "devDependencies": {
+    "lit-analyzer": "^1.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.2",
+    "web-component-analyzer": "^1.1.6"
+  }
+}
