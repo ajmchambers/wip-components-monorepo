@@ -1,7 +1,7 @@
 {
   "name": "@ajmchambers/components-react",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hopefully a collection of lit components wrapped for react",
   "main": "my-element.js",
   "module": "my-element.js",
@@ -21,7 +21,7 @@
   "author": "Google LLC",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@ajmchambers/components-core": "^1.0.0",
+    "@ajmchambers/components-core": "^1.0.1",
     "@lit-labs/react": "^1.0.0-rc.2"
   },
   "peerDependencies": {

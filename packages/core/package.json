@@ -1,7 +1,7 @@
 {
   "name": "@ajmchambers/components-core",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hopefully a collection of lit components",
   "main": "my-element.js",
   "module": "my-element.js",
