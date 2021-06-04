@@ -47,6 +47,5 @@
     "rollup-plugin-summary": "^1.2.3",
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "^3.8.3"
-  },
-  "gitHead": "07b1291fe492cde76cac119f508634c7323f3a71"
+  }
 }
