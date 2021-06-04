@@ -7,6 +7,9 @@
   "module": "my-element.js",
   "types": "my-element.d.ts",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
@@ -45,5 +48,5 @@
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "^3.8.3"
   },
-  "gitHead": "e46905add7e8e0bfe1aa493ccfb8accbf9113fa2"
+  "gitHead": "031c9bfdbcb8e3cc5758a60d6bb531400387322c"
 }
