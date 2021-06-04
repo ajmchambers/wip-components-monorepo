@@ -1,7 +1,0 @@
-/node_modules/
-/lib/
-/test/
-custom-elements.json
-# top level source
-**.d.ts
-**.d.ts.map
