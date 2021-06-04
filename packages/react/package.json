@@ -33,7 +33,7 @@
     "@lit-labs/react": "^1.0.0-rc.2"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "*"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^9.0.0",
