@@ -1,7 +1,7 @@
 {
   "name": "@ajmchambers/components-react",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Hopefully a collection of lit components wrapped for react",
   "main": "my-element.js",
   "module": "my-element.js",
