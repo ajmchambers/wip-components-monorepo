@@ -3,15 +3,22 @@
   "private": false,
   "version": "1.0.4",
   "description": "Hopefully a collection of lit components wrapped for react",
-  "main": "my-element.js",
-  "module": "my-element.js",
-  "types": "my-element.d.ts",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
   "type": "module",
   "files": [
+    "/index.{d.ts,d.ts.map,js,js.map}",
     "/my-element.{d.ts,d.ts.map,js,js.map}",
+    "/my-button.{d.ts,d.ts.map,js,js.map}",
     "/src/",
     "!/src/test/"
   ],
+  "exports": {
+    ".": "./index.js",
+    "./my-element.js": "./my-element.js",
+    "./my-button.js": "./my-button.js"
+  },
   "publishConfig": {
     "access": "public"
   },
