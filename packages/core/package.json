@@ -8,15 +8,14 @@
   "types": "index.d.ts",
   "type": "module",
   "files": [
-    "/my-element.{d.ts,d.ts.map,js,js.map}",
-    "/my-button.{d.ts,d.ts.map,js,js.map}",
+    "/dist/",
     "/src/",
     "!/src/test/"
   ],
   "exports": {
     ".": "./index.js",
-    "./my-element.js": "./my-element.js",
-    "./my-button.js": "./my-button.js"
+    "./my-element.js": "./dist/my-element.js",
+    "./my-button.js": "./dist/my-button.js"
   },
   "publishConfig": {
     "access": "public"
