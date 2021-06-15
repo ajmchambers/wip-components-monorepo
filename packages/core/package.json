@@ -13,7 +13,7 @@
     "!/src/test/"
   ],
   "exports": {
-    ".": "./index.js",
+    ".": "./dist/index.js",
     "./my-element.js": "./dist/my-element.js",
     "./my-button.js": "./dist/my-button.js"
   },
