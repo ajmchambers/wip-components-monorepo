@@ -1,6 +1,5 @@
-import {css} from 'lit';
+import {css, customElement} from '@lion/core';
 import {LionButton} from '@lion/button';
-import {customElement} from 'lit/decorators.js';
 
 /**
  * An implementation of the egg button.
