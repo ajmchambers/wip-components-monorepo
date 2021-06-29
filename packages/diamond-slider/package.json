@@ -1,6 +1,6 @@
 {
   "name": "@ajmchambers/diamond-slider",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Following along with this video, making a lit custom element version: https://www.youtube.com/watch?v=CGfmYWfNbdA",
   "author": "Alan Chambers",
   "private": false,
