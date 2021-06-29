@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+    * {
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #E8E8F0;
+      color: #111E3C;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+
+    :root {
+      --diamond-slider-text-color: #111e3c;
+      --diamond-slider-color-primary: #fb6446;
+      --diamond-slider-font-primary: Poppins, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../dist/diamond-slider.js';
+
+    const value = 5;
+    render(
+      html`
+        <diamond-slider .value=${value} min="0" max="15">
+          some more light-dom
+        </diamond-slider>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>
